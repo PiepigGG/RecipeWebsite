@@ -21,12 +21,12 @@
       "title": "Ordering Pizza",
       "tags": ["lunch", "dinner"],
       "file": "Webpages/orderingpizza.html",
-      "image": "media/pizza.png"
+      "image": "/media/pizza.png"
     },
     {
       "title": "bologna sandwhich",
       "tags": ["lunch", "dinner", "snacks"],
       "file": "Webpages/bolognasandwich.html",
-      "image": "media/friedbologna.png"
+      "image": "/media/friedbologna.png"
     }
   ]  
