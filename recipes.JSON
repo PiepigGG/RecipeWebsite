@@ -1,0 +1,32 @@
+[
+    {
+      "title": "Cup O' Noodles",
+      "tags": ["breakfast", "lunch", "dinner", "sides", "snacks", "beverages"],
+      "file": "Webpages/CupNoodles.html",
+      "image": "media/cup-noodles.png"
+    },
+    {
+      "title": "Toast",
+      "tags": ["breakfast", "snacks", "sides"],
+      "file": "Webpages/toast.html",
+      "image": "media/toast.png"
+    },
+    {
+      "title": "Chocolate Milk",
+      "tags": ["beverages", "breakfast", "lunch", "dinner"],
+      "file": "webpages/chocolatemilk.html",
+      "image": "media/chocolatemilk.png"
+    },
+    {
+      "title": "Ordering Pizza",
+      "tags": ["lunch", "dinner"],
+      "file": "webpages/orderingpizza.html",
+      "image": "media/orderpizza.png"
+    },
+    {
+      "title": "bologna sandwhich",
+      "tags": ["lunch", "dinner", "snacks"],
+      "file": "webpages/bolognasandwich.html",
+      "image": "media/bolognasandwich.png"
+    }
+  ]  

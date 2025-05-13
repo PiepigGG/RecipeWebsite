@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Broke Man's Cookbook</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="pagecontainer">
+    <header>
+      <div class="logo-title">
+        <img src="media/logo.png" 
+             alt="The Broke Man's Cookbook logo" 
+             class="site-logo" 
+             id="gameToggleLogo" />
+        <h1>The Broke Man's Cookbook</h1>
+        <p style="text-align:center; font-style:italic;">For those that are broke and don't know how to cook.</p>
+      </div>
+
+      <<nav>
+        <ul class="navbar">
+          <li><a href="index.HTML">Homepage</a></li>
+          <li><a href="Search.html">Search</a></li>
+          <li><a href="Search.html?query=breakfast">Breakfast</a></li>
+          <li><a href="Search.html?query=lunch">Lunch</a></li>
+          <li><a href="Search.html?query=dinner">Dinner</a></li>
+          <li><a href="Search.html?query=sides">Sides</a></li>
+          <li><a href="Search.html?query=snacks">Snacks</a></li>
+          <li><a href="Search.html?query=beverages">Beverages</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <section class="search-controls card">
+        <div class="search-bar">
+          <input type="text" id="searchInput" placeholder="Search for a recipe..." />
+          <button onclick="performSearch()">Search</button>
+        </div>
+    </header>
+
+    <section class="hero card">
+      <img src="media/herobanner.png" alt="Boiling water tutorial image" />
+      <div class="hero-text">
+        <h2>How to Boil Water</h2>
+        <p>Fill a pot with water, put it on a stove, turn the heat to high, and wait until you see bubbles.</p>
+      </div>
+    </section>
+
+    <section class="categories card" style="position: relative;">
+      <h2 style="position: relative; z-index: 2;">Quick Navigation</h2>
+      <div class="category-grid" style="position: relative; z-index: 2;">
+        <div class="cat-tile"><a href="#"><img src="Media/breakfast.png" alt="Breakfast"/><span>Breakfasts</span></a></div>
+        <div class="cat-tile"><a href="#"><img src="Media/Lunch.png" alt="Lunch"/><span>Lunches</span></a></div>
+        <div class="cat-tile"><a href="#"><img src="Media/dinner.png" alt="Dinner"/><span>Dinners</span></a></div>
+        <div class="cat-tile"><a href="#"><img src="Media/Snacks.png" alt="Snacks"/><span>Snacks</span></a></div>
+      </div>
+    <!--
+      <div class="platform" style="position: absolute; height: 20px; width: 30%; bottom: 100%; left: 90%;"></div>
+      <div class="platform" style="position: absolute; height: 20px; width: 30%; bottom: 0; left: 0;"></div>
+    -->
+    </section>
+
+    <section class="latest-recipes card" style="position: relative;">
+      <h2 style="position: relative; z-index: 2;">Most popular recipes</h2>
+      <ul style="position: relative; z-index: 2;">
+        <li><a href="#">Cup O' Noodles</a></li>
+        <li><a href="#">Peanut Butter on a Spoon</a></li>
+        <li><a href="#"></a></li>
+      </ul>
+      <div class="platform" style="position: absolute; height: 20px; width: 100%; bottom: 0; left: 0;"></div>
+    </section>
+
+  </div>
+<!--
+  <div class="game-objects">
+    <img src="media/tomato.png" class="game-object" id="tomato" />
+    <img src="media/banana.png" class="game-object" id="banana" />
+    <img src="media/steak.png" class="game-object" id="steak" />
+    <img src="media/noodles.png" class="game-object" id="noodles" />
+  </div>
+-->
+</body>
+</html>

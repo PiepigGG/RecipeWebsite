@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Search - The Broke Man's Cookbook</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="pagecontainer">
+    <header>
+      <div class="logo-title">
+        <img src="media/logo.png" alt="The Broke Man's Cookbook logo" class="site-logo" />
+        <h1>The Broke Man's Cookbook</h1>
+        <p style="text-align:center; font-style:italic;">Search for something that'll keep you fed.</p>
+      </div>
+
+      <nav>
+        <ul class="navbar">
+          <li><a href="index.HTML">Homepage</a></li>
+          <li><a href="Search.html">Search</a></li>
+          <li><a href="Search.html?query=breakfast">Breakfast</a></li>
+          <li><a href="Search.html?query=lunch">Lunch</a></li>
+          <li><a href="Search.html?query=dinner">Dinner</a></li>
+          <li><a href="Search.html?query=sides">Sides</a></li>
+          <li><a href="Search.html?query=snacks">Snacks</a></li>
+          <li><a href="Search.html?query=beverages">Beverages</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="search-controls card">
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search for a recipe..." />
+        <button onclick="performSearch()">Search</button>
+      </div>
+
+      <div class="filter-tags">
+        <label><input type="checkbox" value="breakfast" class="tag-filter"> Breakfast</label>
+        <label><input type="checkbox" value="lunch" class="tag-filter"> Lunch</label>
+        <label><input type="checkbox" value="dinner" class="tag-filter"> Dinner</label>
+        <label><input type="checkbox" value="sides" class="tag-filter"> Sides</label>
+        <label><input type="checkbox" value="snacks" class="tag-filter"> Snacks</label>
+        <label><input type="checkbox" value="beverages" class="tag-filter"> Beverages</label>
+      </div>
+    </section>
+
+    <section class="latest-recipes card">
+      <h2>Results</h2>
+      <ul id="searchResults"></ul>
+    </section>
+
+  </div>
+</body>
+</html>
