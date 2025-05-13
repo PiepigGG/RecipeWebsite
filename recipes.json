@@ -3,30 +3,30 @@
       "title": "Cup O' Noodles",
       "tags": ["breakfast", "lunch", "dinner", "sides", "snacks", "beverages"],
       "file": "Webpages/CupNoodles.html",
-      "image": "RecipeWebsite/media/cup-noodles.png"
+      "image": "../media/cup-noodles.png"
     },
     {
       "title": "Toast",
       "tags": ["breakfast", "snacks", "sides"],
       "file": "Webpages/Toast.html",
-      "image": "RecipeWebsite/media/toast.png"
+      "image": "../media/toast.png"
     },
     {
       "title": "Chocolate Milk",
       "tags": ["beverages", "breakfast", "lunch", "dinner"],
       "file": "Webpages/chocolatemilk.html",
-      "image": "RecipeWebsite/media/chocolatemilk.png"
+      "image": "../media/chocolatemilk.png"
     },
     {
       "title": "Ordering Pizza",
       "tags": ["lunch", "dinner"],
       "file": "Webpages/orderingpizza.html",
-      "image": "RecipeWebsite/media/pizza.png"
+      "image": "../media/pizza.png"
     },
     {
       "title": "bologna sandwhich",
       "tags": ["lunch", "dinner", "snacks"],
       "file": "Webpages/bolognasandwich.html",
-      "image": "RecipeWebsite/media/friedbologna.png"
+      "image": "../media/friedbologna.png"
     }
   ]  
